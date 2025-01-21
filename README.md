@@ -4,6 +4,8 @@
 
 This Chrome extension is designed to simulate the process of uploading product details to Facebook Marketplace. It fetches product details from a backend API, displays them in the extension's popup, and allows the user to fill out the Facebook Marketplace form automatically using the product details. This Proof of Concept (PoC) does not involve Facebook Marketplace's official API but simulates the manual process of form-filling by interacting with the browser.
 
+!["Extension Image"](img.png)
+
 ## Features
 
 - Fetches product details from a backend API.
