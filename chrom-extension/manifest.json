@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Marketplace Uploader",
+    "version": "1.0",
+    "description": "Uploads product details to Facebook Marketplace",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["http://chromextensionapi.test/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
